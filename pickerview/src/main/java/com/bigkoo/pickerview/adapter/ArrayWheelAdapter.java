@@ -9,7 +9,6 @@ import java.util.List;
  * @param <T> the element type
  */
 public class ArrayWheelAdapter<T> implements WheelAdapter {
-	
 
 	// items
 	private List<T> items;
@@ -20,7 +19,6 @@ public class ArrayWheelAdapter<T> implements WheelAdapter {
 	 */
 	public ArrayWheelAdapter(List<T> items) {
 		this.items = items;
-
 	}
 	
 	@Override
@@ -40,5 +38,4 @@ public class ArrayWheelAdapter<T> implements WheelAdapter {
 	public int indexOf(Object o){
 		return items.indexOf(o);
 	}
-
 }
